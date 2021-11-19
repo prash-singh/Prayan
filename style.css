@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -49,6 +50,10 @@ header {
 
 .navbar__nav__items {
     display: flex;
+}
+
+.navbar__register a, .nav__items a{
+    color: white;
 }
 
 .brand__logo {
@@ -177,36 +182,36 @@ header {
         cursor: pointer;
         background: none;
     }
-    #items__home,
-    #items__about,
-    #items__offers,
-    #items__contact,
-    #nav__login,
-    #nav__register {
+    #items__home a,
+    #items__about a,
+    #items__offers a,
+    #items__contact a,
+    #nav__login a,
+    #nav__register a{
         padding: 5px 0;
         cursor: pointer;
     }
-    #items__home:hover {
+    #items__home:hover a{
         border-bottom: 2px solid cyan;
         color: orange;
     }
-    #items__about:hover {
+    #items__about:hover a{
         border-bottom: 2px solid cyan;
         color: orange;
     }
-    #items__offers:hover {
+    #items__offers:hover a{
         border-bottom: 2px solid cyan;
         color: orange;
     }
-    #items__contact:hover {
+    #items__contact:hover a{
         border-bottom: 2px solid cyan;
         color: orange;
     }
-    #nav__login:hover {
+    #nav__login:hover a{
         border-bottom: 2px solid greenyellow;
         color: orangered;
     }
-    #nav__register:hover {
+    #nav__register:hover a{
         border-bottom: 2px solid greenyellow;
         color: orangered;
     }

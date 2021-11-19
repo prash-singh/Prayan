@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayan</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">  
+</head>
+
+<header>
+    <nav class="navbar">
+        <div class="navbar__top">
+            <div class="navbar__brand">
+                <a href="/index.html" rel="noopener noreferrer">
+                    <img src="/assets/logo.png" alt="logo" class="brand__logo">
+                </a>
+            </div>
+            <div class="navbar__nav__items">
+                <div class="nav__items">
+                    <h5 id="items__home"> <a href="index.html">HOME</a></h5>
+                    <h5 id="items__about"> <a href="/header/about.html">ABOUT US</a></h5>
+                    <h5 id="items__offers"> <a href="/header/offer.html">OFFERS</a></h5>
+                    <h5 id="items__contact"><a href="/header/contact.html">Contact</a></h5>
+                </div>
+            </div>
+            <div class="navbar__account">
+                <div class="navbar__register">
+                    <h5 id="nav__login"> <a href="/userAccount/login.html"> LOGIN</a></h5>
+                    <h4>|</h4>
+                    <h5 id="nav__register"> <a href="/userAccount/signup.html">REGISTER</a></h5>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="login">
+        <section class="login_body">
+            <div class="login_header">
+                <h3>Welcome Back</h3>
+                <img src="/assets/login.svg" alt="login_logo">
+            </div>
+            <div class="login_container">
+                <form action="./Database/login.php" method="POST">
+                    <table>
+                        <tr>
+                            <th><label for="name">Enter your Username:</label></th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="example@148" id="name" name="username" required></td>
+                        </tr>
+                        <tr>
+                            <th><label for="password">Enter your password:</label></th>
+                        </tr>
+                        <tr>
+                            <td><input type="password" placeholder="******" id="password" name="password" required></td>
+                        </tr>
+                        <tr>
+                            <td class="btn_login"><input type="submit" value="Login"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="newAccount">
+                <h6>Don't have account?</h6>
+                <a href="./signup.html">Create new Account</a>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
