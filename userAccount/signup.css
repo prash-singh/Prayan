@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Beyond';
+    src: url('/assets/fonts/beyond_the_mountains.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Merriweather", "serif";
+    background-color: #ebf2ff;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    position: relative;
+    z-index: 20;
+    text-align: center;
+}
+
+.navbar__top {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #350a4eef;
+}
+
+.navbar__brand {
+    width: 100px;
+}
+
+.navbar__nav__items {
+    display: flex;
+}
+
+.navbar__register a, .nav__items a{
+    color: white;
+}
+
+.brand__logo {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.login_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2% 10%;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: #007bff;
+}
+.login_container{
+    padding: 1rem;
+    height: 50%;
+    text-align: center;
+    justify-content: space-evenly;
+    z-index: 50;
+}
+
+.login_container input{
+    padding: 1rem;
+    border: #007bff;
+    border-radius: 10px;
+    margin: 1rem 0rem;
+
+}
+
+.login_container label{
+    color: whitesmoke;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.login_header{
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_login input{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.newAccount a {
+    font-size: small;
+}
+
+.login_header img{
+    width: 150px;
+    margin-top: 20px;
+}
+
+@media(min-width:1024px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        row-gap: 150px;
+        position: relative;
+        z-index: 20;
+    }
+    .navbar__brand {
+        width: 200px;
+    }
+    .nav__items {
+        align-items: center;
+        display: flex;
+        gap: 50px;
+    }
+
+    #items__home a,
+    #items__about a,
+    #items__offers a,
+    #items__contact a,
+    #nav__login a,
+    #nav__register a{
+        padding: 5px 0;
+        cursor: pointer;
+    }
+    #items__home:hover a{
+        border-bottom: 2px solid cyan;
+        color: orange;
+    }
+    #items__about:hover a{
+        border-bottom: 2px solid cyan;
+        color: orange;
+    }
+    #items__offers:hover a{
+        border-bottom: 2px solid cyan;
+        color: orange;
+    }
+    #items__contact:hover a{
+        border-bottom: 2px solid cyan;
+        color: orange;
+    }
+    #nav__login:hover a{
+        border-bottom: 2px solid greenyellow;
+        color: orangered;
+    }
+    #nav__register:hover a{
+        border-bottom: 2px solid greenyellow;
+        color: orangered;
+    }
+    .navbar__register {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        letter-spacing: 1px;
+    }
+
+    .login_body{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .login_header{
+        font-style: italic;
+        color: whitesmoke;
+        font-size: large;
+        flex: 1;
+    }
+
+    .newAccount{
+        font-size: x-large;
+        flex: 1;
+    }
+
+    .newAccount a{
+        font-size: large;
+        color: #ebf2ff;
+    }
+
+    .login_container{
+        flex: 1.5;
+        margin-left: 12%;
+    }
+
+    .login_container label{
+        color: snow;
+    }
+
+    .login_header img{
+        width: 350px;
+        margin-top: 20px;
+    }
+}
