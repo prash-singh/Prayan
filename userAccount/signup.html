@@ -49,45 +49,75 @@
             <div class="login_container">
                 <form action="./Database/signup.php" method="POST">
                     <table>
-                        <!-- Full name -->
-                        <tr>
-                            <th><label for="fname">Enter your Full Name</label></th>
-                        </tr>
-                        <tr>
-                            <td><input type="text" id="fname" name="fname" placeholder="aviral jaiswal" required></td>
-                        </tr>
-                        <!-- Username -->
-                        <tr>
-                            <th><label for="name">Create your Username:</label></th>
-                        </tr>
-                        <tr>
-                            <td><input type="text" placeholder="example@148" id="name" name="username" required></td>
-                        </tr>
-                        <!-- password -->
-                        <tr>
-                            <th><label for="password">Create your password:</label></th>
-                        </tr>
-                        <tr>
-                            <td><input type="password" placeholder="******" id="password" name="password" required></td>
-                        </tr>
-                        <!-- Re-enter pass-->
-                        <tr>
-                            <th><label for="rpassword">Re-enter your password:</label></th>
-                        </tr>
-                        <tr>
-                            <td><input type="password" placeholder="******" id="rpassword" name="password" required></td>
-                        </tr>
-                        <!--Email -->
-                        <tr>
-                            <th><label for="mail">Enter your Email Id:</label></th>
-                        </tr>
-                        <tr>
-                            <td><input type="email" placeholder="example@gmail.com" id="mail" name="email" required></td>
-                        </tr>
+
+                        <tbody>
+                            <!-- First name -->
+                            <tr>
+                                <td><label for="fname">Enter your Full Name</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" id="fname" name="fname" placeholder="Aviral " required></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <!-- Last Name -->
+                            <tr>
+                                <td><label for="lname">Enter your Last Name</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" id="lname" name="lname" placeholder="Jaiswal" required></td>
+                            </tr>
+                        </tbody>
                         
-                        <tr>
-                            <td class="btn_login"><input type="submit" value="SignUp"></td>
-                        </tr>
+                        <tbody>
+                            <!--Email -->
+                            <tr>
+                                <td><label for="mail">Enter your Email Id:</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="email" placeholder="example@gmail.com" id="mail" name="email" required></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <!-- DOB -->  
+                            <tr>
+                                <td><label for="dob">Enter Date of Birth</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="date" id="dob" name="dob" required></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <!-- password -->
+                            <tr>
+                                <td><label for="password">Create your password:</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="password" placeholder="******" id="password" name="password" required></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <!-- re-password -->
+                            <tr>
+                                <td><label for="rpassword">Re-enter your password:</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="password" placeholder="******" id="rpassword" name="password" required></td>
+                            </tr>   
+                        </tbody>
+
+                        <tbody>
+                            <!-- submit -->
+                            <tr>
+                                <td class="btn_login"><input type="submit" value="SignUp"></td>
+                            </tr>
+                        </tbody>
+
+
                     </table>
                 </form>
             </div>

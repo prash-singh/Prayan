@@ -63,7 +63,6 @@ body {
 }
 .login_container{
     padding: 1rem;
-    height: 50%;
     text-align: center;
     justify-content: space-evenly;
     z-index: 50;
@@ -99,6 +98,7 @@ body {
 
 .newAccount a {
     font-size: small;
+    color: #ebf2ff;
 }
 
 .login_header img{
@@ -166,9 +166,9 @@ body {
     }
 
     .login_body{
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        align-items: baseline;
         border-radius: 50px;
     }
 
@@ -176,30 +176,46 @@ body {
         font-style: italic;
         color: whitesmoke;
         font-size: large;
+        align-self: center;
         flex: 1;
     }
 
     .newAccount{
         font-size: x-large;
-        flex: 1;
+        align-self: center;
+        justify-self: center;
     }
 
     .newAccount a{
         font-size: large;
-        color: #ebf2ff;
+    }
+
+    .newAccount a:hover{
+        color: orangered;
     }
 
     .login_container{
-        flex: 1.5;
-        margin-left: 12%;
+        width: 100%;
     }
 
     .login_container label{
         color: snow;
     }
 
+    table{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+
     .login_header img{
-        width: 350px;
+        width: 300px;
         margin-top: 20px;
     }
+
+    .btn_login input:hover{
+    background-color: orangered;
+    color: black;
+    }
+
 }
