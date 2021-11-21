@@ -4,6 +4,6 @@
 
     $connection = mysqli_connect('localhost',"root",'');
     if(!$connection){
-        
+          
     }
 ?>
