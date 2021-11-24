@@ -47,7 +47,7 @@
                 <img src="/assets/signup.svg" alt="signup_logo">
             </div>
             <div class="login_container">
-                <form action="./Database/signup.php" method="POST">
+                <form name="uform" action="./Database/signup.php" onsubmit = "return validation()" method="POST">
                     <table>
 
                         <tbody>
@@ -96,7 +96,7 @@
                                 <td><label for="password">Create your password:</label></td>
                             </tr>
                             <tr>
-                                <td><input type="password" placeholder="******" id="password" name="password" required></td>
+                                <td><input type="password" placeholder="******" id="password" name="pass1" required></td>
                             </tr>
                         </tbody>
 
@@ -106,7 +106,7 @@
                                 <td><label for="rpassword">Re-enter your password:</label></td>
                             </tr>
                             <tr>
-                                <td><input type="password" placeholder="******" id="rpassword" name="password" required></td>
+                                <td><input type="password" placeholder="******" id="rpassword" name="pass2" required></td>
                             </tr>   
                         </tbody>
 
@@ -116,8 +116,6 @@
                                 <td class="btn_login"><input type="submit" value="SignUp"></td>
                             </tr>
                         </tbody>
-
-
                     </table>
                 </form>
             </div>
@@ -127,6 +125,18 @@
             </div>
         </section>
     </div>
+    <script>  
+            function validation()  
+            {  
+                var pass1=document.uform.password.value;  
+                var pass2=document.uform.rpassword.value;  
+                if(pass1 != pass2) {  
+                    alert("Password Not Matched Re-check your password");  
+                    return false;  
+                }                               
+            }  
+    </script>  
+
 </body>
 
 </html>
