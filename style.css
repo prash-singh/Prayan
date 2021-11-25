@@ -181,8 +181,9 @@ header {
     }
     .button__explore:hover {
         cursor: pointer;
-        background: none;
+        background: linear-gradient(45deg,#007bff, #fd7e14);
     }
+
     #items__home a,
     #items__about a,
     #items__offers a,

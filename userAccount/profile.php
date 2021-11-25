@@ -16,22 +16,22 @@
     <nav class="navbar">
         <div class="navbar__top">
             <div class="navbar__brand">
-                <a href="./index.html" rel="noopener noreferrer">
-                    <img src="./assets/logo.png" alt="logo" class="brand__logo">
+                <a href="../index.html" rel="noopener noreferrer">
+                    <img src="../assets/logo.png" alt="logo" class="brand__logo">
                 </a>
             </div>
             <div class="navbar__nav__items">
                 <div class="nav__items">
-                    <h5 id="items__home"> <a href="./index.html">HOME</a></h5>
-                    <h5 id="items__about"> <a href="./header/about.html">ABOUT US</a></h5>
-                    <h5 id="items__offers"> <a href="./header/offer.html">OFFERS</a></h5>
-                    <h5 id="items__contact"><a href="./header/contact.html">Contact</a></h5>
+                    <h5 id="items__home"> <a href="../index.html">HOME</a></h5>
+                    <h5 id="items__about"> <a href="../header/about.html">ABOUT US</a></h5>
+                    <h5 id="items__offers"> <a href="../header/offer.html">OFFERS</a></h5>
+                    <h5 id="items__contact"><a href="../header/contact.html">Contact</a></h5>
                 </div>
             </div>
             <div class="navbar__account">
                 <div class="navbar__register">
-                    <img src="./assets/userProfile.svg" alt="userProfile">
-                    <h5 id="nav__profile"> <a href="./userAccount/profile.html"> PROFILE</a></h5>
+                    <img src="../assets/userProfile.svg" alt="userProfile">
+                    <h5 id="nav__profile"> <a href="./profile.php"> PROFILE</a></h5>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
 <body>
     <div class="profile__main">
         <div class="profile__left">
-            <img src="./assets/userProfile.svg" alt="profile">
+            <img src="../assets/userProfile.svg" alt="profile">
             <div class="user__details">
                 <input type="text" id="name" readonly placeholder="name">
                 <input type="text" id="email" readonly placeholder="email">
