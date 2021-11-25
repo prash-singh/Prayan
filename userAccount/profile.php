@@ -30,8 +30,7 @@
             </div>
             <div class="navbar__account">
                 <div class="navbar__register">
-                    <img src="../assets/userProfile.svg" alt="userProfile">
-                    <h5 id="nav__profile"> <a href="./profile.php"> PROFILE</a></h5>
+                    <h5 id="nav__profile"> <a href="./Database/logout.php"> LogOut</a></h5>
                 </div>
             </div>
         </div>

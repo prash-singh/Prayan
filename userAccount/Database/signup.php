@@ -10,14 +10,14 @@
     if(!$connection){
         echo"<script> 
             alert(\"database not connected\");
-            window.location.href = \"signup.html\";
+            window.location.href = \"../signup.html\";
         </script>";
     }
 
     $insert_query = "INSERT INTO UserDetails (`FirstName`,`LastName`,`Email`,`DOB`,`Password`) VALUES ('$fname','$lname','$email','$dob', '$pass1')";
     if(mysqli_query($connection,$insert_query)){
         echo "Inserted";
-        header("location:login.html");
+        header("location:../login.html");
     }
     else{
         echo "failed";

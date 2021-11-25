@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <header>
@@ -47,7 +48,7 @@
                 <img src="../assets/signup.svg" alt="signup_logo">
             </div>
             <div class="login_container">
-                <form name="uform" action="./Database/signup.php" onsubmit = "return validation()" method="POST">
+                <form name="uform" action="./signup.php" onsubmit="return validation()" method="POST">
                     <table>
 
                         <tbody>
@@ -69,7 +70,7 @@
                                 <td><input type="text" id="lname" name="lname" placeholder="Jaiswal" required></td>
                             </tr>
                         </tbody>
-                        
+
                         <tbody>
                             <!--Email -->
                             <tr>
@@ -81,7 +82,7 @@
                         </tbody>
 
                         <tbody>
-                            <!-- DOB -->  
+                            <!-- DOB -->
                             <tr>
                                 <td><label for="dob">Enter Date of Birth</label></td>
                             </tr>
@@ -107,13 +108,13 @@
                             </tr>
                             <tr>
                                 <td><input type="password" placeholder="******" id="rpassword" name="pass2" required></td>
-                            </tr>   
+                            </tr>
                         </tbody>
 
                         <tbody>
                             <!-- submit -->
                             <tr>
-                                <td class="btn_login"><input type="submit" value="SignUp"></td>
+                                <td class="btn_login"><input type="submit" value="SignUp" name="signup"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -125,17 +126,45 @@
             </div>
         </section>
     </div>
-    <script>  
-            function validation()  
-            {  
-                var pass1=document.uform.password.value;  
-                var pass2=document.uform.rpassword.value;  
-                if(pass1 != pass2) {  
-                    alert("Password Not Matched Re-check your password");  
-                    return false;  
-                }                               
-            }  
-    </script>  
+    <script>
+        function validation() {
+            var pass1 = document.uform.password.value;
+            var pass2 = document.uform.rpassword.value;
+            if (pass1 != pass2) {
+                alert("Password Not Matched Re-check your password");
+                return false;
+            }
+        }
+    </script>
+
+    <?php
+
+    if(isset($_POST['signup'])){
+        $fname = $_POST['fname'];
+        $lname = $_POST['lname'];
+        $email = $_POST['email'];
+        $dob = $_POST['dob'];
+        $pass1 = $_POST['pass1'];
+        $pass2 = $_POST['pass2'];
+    
+        $connection = mysqli_connect("localhost", "root", "", "prayandb");
+        if (!$connection) {
+            echo '<script> 
+                alert("database not connected");
+                window.location.href = "../signup.html";
+            </script>';
+        }
+    
+        $insert_query = "INSERT INTO UserDetails (`FirstName`,`LastName`,`Email`,`DOB`,`Password`) VALUES ('$fname','$lname','$email','$dob', '$pass1')";
+        if (mysqli_query($connection, $insert_query)) {
+            echo '<script>alert("Signup Success")</script>';
+            echo '<script>window.location.href="./login.html"</script>';
+        } else {
+            echo '<script>alert("Signup Failed")</script>';
+            echo '<script>window.location.href="./signup.php"</script>';
+        }
+    }
+    ?>
 
 </body>
 
