@@ -50,11 +50,6 @@ body {
     cursor: pointer;
 }
 
-.navbar__register img{
-    width: 50px;
-    height: 40px;
-}
-
 .profile__main{
     display: flex;
     flex-direction: column;
@@ -151,12 +146,6 @@ body {
     #nav__profile:hover a{
         border-bottom: 2px solid greenyellow;
         color: orangered;
-    }
-    .navbar__register {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        letter-spacing: 1px;
     }
 
     .profile__main img{
