@@ -17,23 +17,23 @@
     <nav class="navbar">
         <div class="navbar__top">
             <div class="navbar__brand">
-                <a href="../index.html" rel="noopener noreferrer">
-                    <img src="../assets/logo.png" alt="logo" class="brand__logo">
+                <a href="./index.html" rel="noopener noreferrer">
+                    <img src="./assets/logo.png" alt="logo" class="brand__logo">
                 </a>
             </div>
             <div class="navbar__nav__items">
                 <div class="nav__items">
-                    <h5 id="items__home"> <a href="../index.html">HOME</a></h5>
-                    <h5 id="items__about"> <a href="../header/about.html">ABOUT US</a></h5>
-                    <h5 id="items__offers"> <a href="../header/offer.html">OFFERS</a></h5>
-                    <h5 id="items__contact"><a href="../header/contact.html">Contact</a></h5>
+                    <h5 id="items__home"> <a href="./index.html">HOME</a></h5>
+                    <h5 id="items__about"> <a href="./header/about.html">ABOUT US</a></h5>
+                    <h5 id="items__offers"> <a href="./header/offer.html">OFFERS</a></h5>
+                    <h5 id="items__contact"><a href="./header/contact.html">Contact</a></h5>
                 </div>
             </div>
             <div class="navbar__account">
                 <div class="navbar__register">
                     <h5 id="nav__login"> <a href="./login.html"> LOGIN</a></h5>
                     <h4>|</h4>
-                    <h5 id="nav__register"> <a href="./signup.html">REGISTER</a></h5>
+                    <h5 id="nav__register"> <a href="./signup.php">REGISTER</a></h5>
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
         <section class="login_body">
             <div class="login_header">
                 <h3>Create new Account</h3>
-                <img src="../assets/signup.svg" alt="signup_logo">
+                <img src="./assets/signup.svg" alt="signup_logo">
             </div>
             <div class="login_container">
                 <form name="uform" action="./signup.php" onsubmit="return validation()" method="POST">
@@ -139,22 +139,22 @@
 
     <?php
 
-    if(isset($_POST['signup'])){
+    if (isset($_POST['signup'])) {
         $fname = $_POST['fname'];
         $lname = $_POST['lname'];
         $email = $_POST['email'];
         $dob = $_POST['dob'];
         $pass1 = $_POST['pass1'];
         $pass2 = $_POST['pass2'];
-    
+
         $connection = mysqli_connect("localhost", "root", "", "prayandb");
         if (!$connection) {
             echo '<script> 
                 alert("database not connected");
-                window.location.href = "../signup.html";
+                window.location.href = "./signup.php";
             </script>';
         }
-    
+
         $insert_query = "INSERT INTO UserDetails (`FirstName`,`LastName`,`Email`,`DOB`,`Password`) VALUES ('$fname','$lname','$email','$dob', '$pass1')";
         if (mysqli_query($connection, $insert_query)) {
             echo '<script>alert("Signup Success")</script>';
