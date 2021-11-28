@@ -24,7 +24,7 @@
             <div class="navbar__nav__items">
                 <div class="nav__items">
                     <h5 id="items__home"> <a href="./index.html">HOME</a></h5>
-                    <h5 id="items__about"> <a href="./header/about.html">ABOUT US</a></h5>
+                    <h5 id="items__about"> <a href="./about.html">ABOUT US</a></h5>
                     <h5 id="items__offers"> <a href="./header/offer.html">OFFERS</a></h5>
                     <h5 id="items__contact"><a href="./header/contact.html">Contact</a></h5>
                 </div>
@@ -167,5 +167,75 @@
     ?>
 
 </body>
+<footer class="footer ">
+    <div class="container ">
+        <div class="row ">
+            <div class="footer-col ">
+                <h4>company</h4>
+                <ul>
+                    <li>
+                        <a href="./about.html">about us</a>
+                    </li>
+                    <li>
+                        <a href="# ">our services</a>
+                    </li>
+                    <li>
+                        <a href="# ">privacy policy</a>
+                    </li>
+                    <li>
+                        <a href="# ">Payment option</a>
+                    </li>
+                    <li>
+                        <a href="./feedback.php">Feedback</a>
+                    </li>
+                </ul>
+            </div>
 
+            <div class="footer-col ">
+                <h4>Online Booking</h4>
+                <ul>
+                    <li>
+                        <a href="# ">Travel Destination</a>
+                    </li>
+                    <li>
+                        <a href="# ">Hotel booking</a>
+                    </li>
+                    <li>
+                        <a href="# ">Flight booking</a>
+                    </li>
+                    <li>
+                        <a href="# ">Cab booking</a>
+                    </li>
+                    <li>
+                        <a href="# ">Restaurant Booking</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col ">
+                <h4> Contact</h4>
+                <ul>
+                    <li>
+                        <a href="mailto:prashant.singh_cs19@gla.ac.in " target="_blank "> Prashant Singh</a>
+                    </li>
+                    <li>
+                        <a href="mailto:abhinandan.jain_cs19@gla.ac.in " target="_blank "> Abhinandan Jain</a>
+                    </li>
+                    <li>
+                        <a href="mailto:aviral.jaiswal_cs19@gla.ac.in " target="_blank "> Aviral Jaiswal</a>
+                    </li>
+                    <li>
+                        <a href="mailto:naveen.pandey_cs19@gla.ac.in " target="_blank "> Naveen Pandey</a>
+                    </li>
+                    <li>
+                        <a href="mailto:pratik.srivastava_cs19@gla.ac.in " target="_blank "> Pratik Srivastava</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col " id="footer_logo ">
+                <img src="./assets/logo.png " alt="logo " class="brand__logo ">
+            </div>
+        </div>
+    </div>
+
+</footer>
 </html>
