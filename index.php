@@ -87,7 +87,7 @@
         <h1 class="text-x1 ">Explore our world</h1>
         <div class="food__menu__card__list ">
             <div class="food__menu__card ">
-                <img src="./assets/paris1.jpg " alt="parisimage " class="hotel__image " />
+                <img src="./assets/paris1.png " alt="parisimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Paris</b></h4>
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/landon1.jpg " alt="londonimage " class="hotel__image " />
+                <img src="./assets/landon1.png " alt="londonimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>London</b></h4>
@@ -117,7 +117,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/india.jpg " alt="indiaimage " class="hotel__image " style="height: 350px; " />
+                <img src="./assets/india.png " alt="indiaimage " class="hotel__image " style="height: 350px; " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Himachal </b></h4>
@@ -144,7 +144,7 @@
         <h1 class="text-x1 ">Top Hotels</h1>
         <div class="food__menu__card__list ">
             <div class="food__menu__card ">
-                <img src="./assets/dream_hotel.jpg " alt="resortimage " class="hotel__image " />
+                <img src="./assets/dream_hotel.png " alt="resortimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Vertex</b></h4>
@@ -159,7 +159,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/udipur_hotel.jpg " alt="udipur_palaceimage " class="hotel__image " />
+                <img src="./assets/udipur_hotel.png " alt="udipur_palaceimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Udipur Palace</b></h4>
@@ -174,7 +174,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/taj_hotel.jpg " alt="taj_hotelimage " class="hotel__image " />
+                <img src="./assets/taj_hotel.png " alt="taj_hotelimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Taj Hotel</b></h4>
@@ -200,7 +200,7 @@
         <h1 class="text-x1 ">Explore Restaurant</h1>
         <div class="food__menu__card__list ">
             <div class="food__menu__card ">
-                <img src="./assets/rest1.jpeg " alt="resortimage " class="hotel__image " />
+                <img src="./assets/rest1.png " alt="resortimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Indian Eagle</b></h4>
@@ -215,7 +215,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/rest2.jpg " alt="udipur_palaceimage " class="hotel__image " />
+                <img src="./assets/rest2.png " alt="udipur_palaceimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Swadesi Zaika</b></h4>
@@ -230,7 +230,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/rest3.jpg " alt="taj_hotelimage " class="hotel__image " />
+                <img src="./assets/rest3.png " alt="taj_hotelimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Indian Corner</b></h4>
@@ -254,7 +254,7 @@
         <h1 class="text-x1 ">Explore Flight Deals</h1>
         <div class="food__menu__card__list ">
             <div class="food__menu__card ">
-                <img src="./assets/air1.jpeg " alt="resortimage " class="hotel__image " />
+                <img src="./assets/air1.png " alt="resortimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Singapore Airline</b></h4>
@@ -269,7 +269,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/air2.jpg " alt="udipur_palaceimage " class="hotel__image " />
+                <img src="./assets/air2.png " alt="udipur_palaceimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Paramount Airway</b></h4>
@@ -284,7 +284,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/air3.jpg " alt="taj_hotelimage " class="hotel__image " />
+                <img src="./assets/air3.png " alt="taj_hotelimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Emirates</b></h4>
