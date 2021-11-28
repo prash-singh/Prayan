@@ -24,7 +24,7 @@
             <div class="navbar__nav__items">
                 <div class="nav__items">
                     <h5 id="items__home"> <a href="./index.html">HOME</a></h5>
-                    <h5 id="items__about"> <a href="./header/about.html">ABOUT US</a></h5>
+                    <h5 id="items__about"> <a href="./about.html">ABOUT US</a></h5>
                     <h5 id="items__offers"> <a href="./header/offer.html">OFFERS</a></h5>
                     <h5 id="items__contact"><a href="./header/contact.html">Contact</a></h5>
                 </div>
