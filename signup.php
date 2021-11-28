@@ -186,7 +186,7 @@
                         <a href="# ">Payment option</a>
                     </li>
                     <li>
-                        <a href="# ">Feedback</a>
+                        <a href="./feedback.php">Feedback</a>
                     </li>
                 </ul>
             </div>
