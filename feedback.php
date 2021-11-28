@@ -68,7 +68,8 @@ input[type=submit]:hover {
     
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */    
 </style>    
-</head>    
+</head> 
+
 <body>    
 <h2>FEED BACK FORM</h2>    
 <div class="container">    
@@ -128,5 +129,6 @@ input[type=submit]:hover {
   </form>    
 </div>    
     
-</body>    
+</body> 
+
 </html> 
