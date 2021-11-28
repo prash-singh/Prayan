@@ -93,6 +93,7 @@ body {
 }
 
 .user__details input{
+    color: black;
     width: 90%;
     border-radius: 3px;
     border: none;
