@@ -246,12 +246,12 @@
             </div>
         </div>
         <div class="food__list__container__button ">
-            <button class="food__list__container__button__work ">View &#8594</button>
+            <button class="food__list__container__button__work "><a href="restaurant.html">View &#8594</a></button>
         </div>
     </section>
     <section class="food__list__container ">
         <div class="food_list__container__back "></div>
-        <h1 class="text-x1 ">Explore Flight Deals</h1>
+        <h1 class="text-x1 "> book Flight & Cabs </h1>
         <div class="food__menu__card__list ">
             <div class="food__menu__card ">
                 <img src="./assets/air1.jpeg " alt="resortimage " class="hotel__image " />
@@ -300,7 +300,7 @@
             </div>
         </div>
         <div class="food__list__container__button ">
-            <button class="food__list__container__button__work ">View &#8594</button>
+            <button class="food__list__container__button__work "><a href="flights.html">View &#8594</a></button>
         </div>
     </section>
 </body>
