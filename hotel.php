@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/udipur_hotel.pngdream_hotel.png " alt="udipur_palaceimage " class="hotel__image " />
+                <img src="./assets/udipur_hotel.png " alt="udipur_palaceimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Udipur Palace</b></h4>
@@ -101,7 +101,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/taj_hotel.pngdream_hotel.png " alt="taj_hotelimage " class="hotel__image " />
+                <img src="./assets/taj_hotel.png " alt="taj_hotelimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Taj Hotel</b></h4>
@@ -124,7 +124,7 @@
 
         <div class="food__menu__card__list ">
             <div class="food__menu__card ">
-                <img src="./assets/hotel4.pngdream_hotel.png " alt="resortimage " class="hotel__image " />
+                <img src="./assets/hotel4.png " alt="resortimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Mahali Mazuri</b></h4>
@@ -139,7 +139,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/hotel5.pngdream_hotel.png " alt="udipur_palaceimage " class="hotel__image " />
+                <img src="./assets/hotel5.png " alt="udipur_palaceimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Oppsite House</b></h4>
@@ -154,7 +154,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/hotel6.pngdream_hotel.png " alt="taj_hotelimage " class="hotel__image " />
+                <img src="./assets/hotel6.png " alt="taj_hotelimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Capella Ubud</b></h4>
@@ -177,7 +177,7 @@
         <div class="food_list__container__back "></div>
         <div class="food__menu__card__list ">
             <div class="food__menu__card ">
-                <img src="./assets/hotel7.pngdream_hotel.png " alt="resortimage " class="hotel__image " />
+                <img src="./assets/hotel7.png " alt="resortimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>The Oberoi</b></h4>
@@ -192,7 +192,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/hotel8.pngdream_hotel.png " alt="udipur_palaceimage " class="hotel__image " />
+                <img src="./assets/hotel8.png " alt="udipur_palaceimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Mandarin</b></h4>
@@ -207,7 +207,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/hotel9.pngdream_hotel.png " alt="taj_hotelimage " class="hotel__image " />
+                <img src="./assets/hotel9.png " alt="taj_hotelimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Manoir Hovey</b></h4>
@@ -230,7 +230,7 @@
         <div class="food_list__container__back "></div>
         <div class="food__menu__card__list ">
             <div class="food__menu__card ">
-                <img src="./assets/hotel10.pngdream_hotel.png " alt="resortimage " class="hotel__image " />
+                <img src="./assets/hotel10.png " alt="resortimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>Taj Lake Palace</b></h4>
@@ -245,7 +245,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/hotel11.pngdream_hotel.png " alt="udipur_palaceimage " class="hotel__image " />
+                <img src="./assets/hotel11.png " alt="udipur_palaceimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b> RAAS</b></h4>
@@ -260,7 +260,7 @@
                 </div>
             </div>
             <div class="food__menu__card ">
-                <img src="./assets/hotel12.pngdream_hotel.png " alt="taj_hotelimage " class="hotel__image " />
+                <img src="./assets/hotel12.png " alt="taj_hotelimage " class="hotel__image " />
                 <div class="food__menu__card__details ">
                     <div>
                         <h4 class="food__menu__card__title "><b>The Roundtree</b></h4>
