@@ -26,7 +26,7 @@
                 <div class="nav__items">
                     <h5 id="items__home"> <a href="./index.php">HOME</a></h5>
                     <h5 id="items__hotel"> <a href="./hotel.php">Hotel</a></h5>
-                    <h5 id="items__flight"> <a href="./flight.php">Flight</a></h5>
+                    <h5 id="items__flight"> <a href="./flights.php">Flight</a></h5>
                     <h5 id="items__restaurant"><a href="./restaurant.php">Restaurant</a></h5>
                 </div>
             </div>
