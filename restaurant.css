@@ -159,9 +159,9 @@ body {
         background: none;
     }
     #items__home a,
-    #items__about a,
-    #items__offers a,
-    #items__contact a,
+    #items__hotel a,
+    #items__flight a,
+    #items__trip a,
     #nav__login a,
     #nav__register a {
         padding: 5px 0;
@@ -171,15 +171,15 @@ body {
         border-bottom: 2px solid cyan;
         color: orange;
     }
-    #items__about:hover a {
+    #items__hotel:hover a {
         border-bottom: 2px solid cyan;
         color: orange;
     }
-    #items__offers:hover a {
+    #items__flight:hover a {
         border-bottom: 2px solid cyan;
         color: orange;
     }
-    #items__contact:hover a {
+    #items__trip:hover a {
         border-bottom: 2px solid cyan;
         color: orange;
     }
