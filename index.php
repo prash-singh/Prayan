@@ -134,7 +134,7 @@
         </div>
         <div class="food__list__container__button ">
 
-            <button class="food__list__container__button__work "><a href="trip.html">View &#8594 </a></button>
+            <button class="food__list__container__button__work "><a href="./trip.php">View &#8594 </a></button>
 
         </div>
     </section>
@@ -190,7 +190,7 @@
             </div>
         </div>
         <div class="food__list__container__button ">
-            <button class="food__list__container__button__work "><a href="hotel.html">View &#8594</a></button>
+            <button class="food__list__container__button__work "><a href="./hotel.php">View &#8594</a></button>
 
         </div>
     </section>
@@ -246,7 +246,7 @@
             </div>
         </div>
         <div class="food__list__container__button ">
-            <button class="food__list__container__button__work "><a href="restaurant.html">View &#8594</a></button>
+            <button class="food__list__container__button__work "><a href="./restaurant.php">View &#8594</a></button>
         </div>
     </section>
     <section class="food__list__container ">
@@ -300,7 +300,7 @@
             </div>
         </div>
         <div class="food__list__container__button ">
-            <button class="food__list__container__button__work "><a href="flights.html">View &#8594</a></button>
+            <button class="food__list__container__button__work "><a href="./flights.php">View &#8594</a></button>
         </div>
     </section>
 </body>

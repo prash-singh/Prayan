@@ -57,9 +57,9 @@ $dob = $rowDetails['DOB'];
         <div class="profile__left">
             <img src="./assets/userProfile.svg" alt="profile">
             <div class="user__details">
-                <input type="text" id="name" readonly value="<?php $firstName . $lastName ?>">
-                <input type="text" id="email" readonly placeholder="<?php $email ?>">
-                <input type="text" id="dob" readonly placeholder="<?php $dob?>">
+                <input type="text" id="name" readonly value="<?php echo($firstName." ".$lastName) ?>">
+                <input type="text" id="email" readonly value="<?php echo($email) ?>">
+                <input type="text" id="dob" readonly value="<?php echo($dob)?>">
             </div>
         </div>
         <div class="profile__right">

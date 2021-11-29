@@ -30,7 +30,7 @@
                     <h5 id="items__contact"><a href="./header/contact.html">Contact</a></h5>
                 </div>
             </div>
-            <div class="navbar__account">
+            <div class="navbar__account" id="navbar_acc">
                 <div class="navbar__register">
                     <h5 id="nav__login"> <a href="./login.html"> LOGIN</a></h5>
                     <h4>|</h4>
@@ -42,7 +42,30 @@
 </header>
 
 <body>
+    <?php
+    session_start();
+    if (isset($_SESSION['email'])) {
+    ?>
+        <script>
+            let elements = document.getElementsByClassName("navbar__register");
+            while (elements.length > 0) elements[0].remove();
+            const elem = document.getElementById('navbar_acc');
+            const div = document.createElement('div');
+            div.className = "navbar__register";
+            const h5 = document.createElement('h5');
+            const a = document.createElement('a');
+            h5.id = "nav__profile";
+            a.setAttribute("href", "./profile.php");
+            a.text = 'PROFILE';
+            h5.appendChild(a);
+            div.append(h5);
+            elem.append(div);
+        </script>
 
+    <?php
+    }
+    ?>
+    
     <section class="food__list__container ">
         <div class="food_list__container__back "></div>
         <h1 class="text-x1 ">Top Hotels</h1>
