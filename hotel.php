@@ -25,9 +25,9 @@
             <div class="navbar__nav__items">
                 <div class="nav__items">
                     <h5 id="items__home"> <a href="./index.php">HOME</a></h5>
-                    <h5 id="items__about"> <a href="./about.html">ABOUT US</a></h5>
-                    <h5 id="items__offers"> <a href="./header/offer.html">OFFERS</a></h5>
-                    <h5 id="items__contact"><a href="./header/contact.html">Contact</a></h5>
+                    <h5 id="items__flight"> <a href="./flights.php">Flight</a></h5>
+                    <h5 id="items__trip"> <a href="./trip.php">Trip</a></h5>
+                    <h5 id="items__restaurant"><a href="./restaurant.php">Restaurant</a></h5>
                 </div>
             </div>
             <div class="navbar__account" id="navbar_acc">
@@ -65,7 +65,7 @@
     <?php
     }
     ?>
-    
+
     <section class="food__list__container ">
         <div class="food_list__container__back "></div>
         <h1 class="text-x1 ">Top Hotels</h1>
